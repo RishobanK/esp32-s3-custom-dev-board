@@ -33,9 +33,9 @@ The board is optimized for reliable embedded system prototyping and hardware int
 
 ### 🖼️ Hardware
 
-![Schematic](images/pcb_schematic.png)
-![PCB Layout](images/pcb_layout.png)
-![3D View](images/pcb_3d.png)
+- [Schematic PDF](design/schematic.pdf)
+- [PCB Layout PDF](design/pcb_layout.pdf)
+- [Gerber Files](design/gerber_files.zip)
 
 ---
 
