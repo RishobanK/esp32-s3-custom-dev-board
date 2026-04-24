@@ -1,41 +1,72 @@
 # ESP32-S3 Custom Development Board
 
-A custom ESP32-S3-MINI based development board designed for embedded system prototyping, USB-C powered development, onboard sensing, and hardware integration.
+### 🔎 Overview
+
+Designed a custom ESP32-S3-MINI based development board with USB-C interface, power regulation, and onboard sensing.
+
+The board is optimized for reliable embedded system prototyping and hardware integration.
 
 ---
 
-## Overview
+### ✨ Features
 
-This project focuses on the design of a compact custom ESP32-S3 development board with USB-C interface, regulated 3.3V power, onboard sensing, boot/reset circuitry, and GPIO breakout headers.
-
-The board was designed to support reliable embedded prototyping and future hardware integration projects.
-
----
-
-## Key Features
-
-- ESP32-S3-MINI-1 module
-- USB-C power and programming interface
-- 5V to 3.3V voltage regulation
-- Boot and reset circuitry
+- ESP32-S3-MINI-1 module (Wi-Fi + Bluetooth)
+- USB-C interface with CC resistors and ESD protection
+- 5V → 3.3V LDO regulator
+- Boot & Reset circuitry
 - WS2812B status LED
-- ENS210 temperature sensor over I2C
+- ENS210 temperature sensor (I2C)
 - GPIO breakout headers
-- 4-layer PCB design
-- RF antenna keep-out consideration
 
 ---
 
-## System Block Diagram
+### ⚙️ Design Highlights
 
-```text
-USB-C Input
-    │
-    ├── ESD Protection
-    │
-    ├── 5V Power Rail ──> 3.3V Regulator ──> ESP32-S3-MINI
-    │                                      ├── ENS210 Sensor
-    │                                      ├── WS2812B LED
-    │                                      └── GPIO Headers
-    │
-    └── USB Data Lines ──> ESP32-S3 USB Interface
+- 4-layer PCB (signal, GND, power separation)
+- USB-C interface designed from scratch
+- Stable 3.3V power regulation
+- Proper ESP32 boot/reset circuit
+- RF antenna keep-out region maintained
+- Compact and optimized PCB routing
+
+---
+
+### 🖼️ Hardware
+
+![Schematic](images/pcb_schematic.png)
+![PCB Layout](images/pcb_layout.png)
+![3D View](images/pcb_3d.png)
+
+---
+
+### 🛠 Tools & Tech
+
+- KiCad
+- ESP32-S3-MINI-1
+- USB-C interface design
+- 4-layer PCB design
+- Embedded hardware development
+
+---
+
+### 🎯 Design Validation
+
+- Verified schematic and pin mapping
+- Checked power regulation stability
+- Confirmed ESP32 boot configuration
+- Reviewed PCB for manufacturability
+- Prepared design for fabrication
+
+---
+
+### 📁 Files
+
+- PCB design files (KiCad)
+- Schematic and layout images
+- Datasheets for key components
+
+---
+
+### 👨‍💻 Author
+
+Rishoban Kandeepan
