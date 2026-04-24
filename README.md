@@ -1,5 +1,7 @@
 # ESP32-S3 Custom Development Board
 
+![ESP32-S3 Custom Development Board 3D View](images/ESP32-S3_Mini_3D.png)
+
 ### 🔎 Overview
 
 Designed a custom ESP32-S3-MINI based development board with USB-C interface, power regulation, and onboard sensing.
